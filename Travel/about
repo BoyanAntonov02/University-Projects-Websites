@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+   
+    <link rel = "stylesheet" href = "projectStyle.css">
+</head>
+<body>
+
+
+
+<section class = "header">
+
+    <a href = "home.php" class = "logo">boyanTravel</a>
+
+    <nav class = "navbar">
+    
+    <a href = "home.php">home</a>
+    <a href = "about.php">about</a>
+    <a href = "trip.php">trip</a>
+    <a href = "book.php">book</a>
+
+    </nav>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+
+
+</section>
+
+<div class="heading" style="background: url(images/cover1.jpg) no-repeat; background-size: cover; background-position: center; padding: 20px; text-align: center;">
+    <h1>about us</h1>
+</div>
+
+<section class="about">
+
+    <div class="image">
+        <img src="images/home-aboutOurCompany-image.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p> At BoyanTravel, we are not just travel agents,
+            we are your personal travel architects. 
+            We believe in creating experiences that go beyond the ordinary.
+            </p>
+            <p> Our deep commitment to quality and attention to detail ensures that every trip
+            we design is crafted to fit your unique preferences and desires.</p>
+            <div class="icons-container">
+              
+                    <div class="icons">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>top destinations</span>
+                    </div>
+
+                    <div class="icons">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>affordable price</span>
+                    </div>
+
+                    <div class="icons">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>24/7 support</span>
+                    </div>
+            </div>
+    </div>
+
+</section>
+
+
+<section class="reviews">
+
+<h1 class="heading-title"> reviews </h1>
+
+        <div class="slide">
+            <h3>alexandar ivanov</h3>
+            <span> love tourism </span>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            
+           
+            <img src="images/people1.jpg" alt="">
+            <p>
+            As someone passionate about exploring new places, I was thrilled with the exceptional service and
+             unforgettable experiences this travel agency provided. Every detail of my trip was meticulously planned, 
+             making my journey seamless and enjoyable. Their deep understanding of travel lovers' needs is evident in their 
+             excellent organization and choice of destinations. Highly recommended for anyone who loves to travel with a touch 
+             of luxury and comfort
+            </p>
+            
+        </div>
+
+        <div class="slide">
+            
+            <h3>gabriela dimitrova</h3>
+            <span> tour guide </span>
+            <img src="images/people2.jpg" alt="">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>
+                "Working as a tour guide, I have high standards for travel arrangements, and this agency exceeded my 
+                expectations. Their attention to cultural details and local experiences made my trip not just a journey but a
+                 deep dive into the essence of each destination. The respect and authenticity they bring to travel planning are 
+                 remarkable. I would definitely collaborate with them again for my future tours."
+            </p>
+           
+
+        </div>
+
+        <div class="slide">
+           
+            <h3>dimitar genchev</h3>
+            <span> climber </span>
+            <img src="images/people3.jpg" alt="">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"As an avid climber, I seek adventure and challenge. This travel agency provided just that, but with an unexpected level of 
+                safety and support. Their knowledge of the best climbing spots and attention to safety details were impressive. The trip was
+                 exhilarating and perfectly suited for adventure seekers like me. I highly recommend them to anyone looking for an
+                  adventurous yet safe travel experience."</p>
+            
+            
+        </div>
+
+
+        <div class="slide">
+            
+            <h3>john wisley </h3>
+            <span> swimmer </span>
+            <img src="images/people4.jpeg" alt="">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"As a swimming enthusiast, I was looking for a travel experience that offered the best in
+                 aquatic adventures. This agency delivered beyond my expectations! Their selection of destinations with pristine
+                  waters and excellent swimming conditions was superb. The accommodations were comfortable, and the staff was knowledgeable 
+                about the best swimming spots. A fantastic experience for anyone who loves to swim and explore the waters!"</p>
+            
+            
+            
+        </div>
+
+
+
+
+</section>
+
+
+
+
+<section class = "footer">
+
+    <div class="box-container">
+
+        <class class="box">
+            <h3>support</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +359 89 8888888 </a>
+            <a href="#"> <i class="fa-solid fa-envelope"></i> boyan.antonov02@gmail.com </a>
+            <a href="#"> <i class="fas fa-map"></i> София, ул. "св. Иван Рилски" 21 </a>
+            <a href="#"> <i class="fas fa-map"></i> Варна, ул. "Ангел Кънчев" 13 </a>
+        </class>
+
+
+        <class class="box">
+            <h3>social media</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-tiktok"></i> tiktok </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+        </class>
+    </div>
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="projectScript.js"></script>
+
+
+</body>
+</html>
