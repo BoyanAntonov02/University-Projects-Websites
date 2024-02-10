@@ -10,5 +10,5 @@ The Travel Website offers a platform for users to explore, book, and manage trip
 Built with PHP, HTML, CSS, and JavaScript. 
 ***Features:***
 **Trip Search** Users can search for trips based on destinations, dates, and budget.
-**Booking Functionality:** A straightforward booking form allows users to easily reserve their chosen trip.
-**Responsive Layout:** The website is designed to be fully responsive, providing a seamless experience on desktop and mobile devices.
+**Booking Functionality** A straightforward booking form allows users to easily reserve their chosen trip.
+**Responsive Layout** The website is designed to be fully responsive, providing a seamless experience on desktop and mobile devices.
