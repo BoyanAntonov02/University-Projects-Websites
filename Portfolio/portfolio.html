@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="func.js" defer></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="logo.png" class = "logo">
+            <div class="clock">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+            <ui>
+
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            
+            </ui>
+        </nav>
+        <div class="header-text">
+            <p>Profile</p>
+            <h1>Informatics student at <br>New Bulgarian
+                University.</h1>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+                    <img src="about.jpg">
+                </div>
+                <div class="about2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="about-text">
+                        2nd year informatics student at New Bulgarian University. 
+                        I have taken courses like Algorithms, Data Structures, OOP, HTML/CSS and others.
+                        I graduated from Vasil Levski secondary school in Sevlievo.
+                        I have skills such as: Time Management, Adaptability, Good communication, A good team player.
+                        I am also interested in finance, cryptocurrencies and blockchain.
+                    </p>
+                    <h2 class="lang">
+                        Languages
+                    </h2>
+                    <div class = "lang-table">
+                        <div>
+                            <h3>Bulgarian</h3>
+                            <p>Native language</p>
+                        </div>
+                        <div>
+                            <h3>English</h3>
+                            <p>Intermediate level</p>
+                        </div>
+                        <div>
+                            <h3>German</h3>
+                            <p>Beginners level</p>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div id="container">
+            <div class="row">
+                <div class="contact1">
+                <h1 class = "contacts">Contacts:</h1>
+                <p class = "text-contacts">boyan.antonov02@gmail.com<br>+359 894447717</p>
+                <a href="CV3.pdf" class="btnCV">Open CV</a>
+                </div>
+                <div class="contact2">
+                    <form>
+                        <input type="text" name = "Name" placeholder="Your Name" required>
+                        <input type="email" name = "email" placeholder="Your Email" required>
+                        <textarea type="message" rows = "6" placeholder="Your message"></textarea>
+                        <button type = "sumbit" class="btnSUMB">sumbit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
